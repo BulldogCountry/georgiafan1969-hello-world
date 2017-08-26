@@ -1,0 +1,2262 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://github.com/flar2/shamu -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="./flar2_shamu_ ElementalX for Nexus 6_files/frameworks-7db951ed87f8f6cbd3a9e89c294e300cf23c1a83ad7ae64c70b8f99b21031340.css" integrity="sha256-fblR7Yf49svTqeicKU4wDPI8GoOteuZMcLj5myEDE0A=" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="./flar2_shamu_ ElementalX for Nexus 6_files/github-7954b84ca7b0a5465456fcdde6ae9d90d5fc06dabd86ac2dcbcf1abe07cb846b.css" integrity="sha256-eVS4TKewpUZUVvzd5q6dkNX8Btq9hqwty88avgfLhGs=" media="all" rel="stylesheet">
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>flar2/shamu: ElementalX for Nexus 6</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/2751621?v=4&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="flar2/shamu" property="og:title"><meta content="https://github.com/flar2/shamu" property="og:url"><meta content="shamu - ElementalX for Nexus 6" property="og:description">
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTkwNjQ3ODg3OjBhZjBkNjdmYjQ5MTdkNGU4YTUxODFkZDM3NTJiN2Q2N2MwYjZiYjdlMDZlNGE1NGE4NTgyMGYzNDMzMGJiODk=--81561268830ecc0e2aedb49ef66f9d3c6f57ae0c">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+  <meta name="request-id" content="B272:2A51F:CC7CF3:13AD75E:59A1B910" data-pjax-transient="">
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url"><meta content="B272:2A51F:CC7CF3:13AD75E:59A1B910" name="octolytics-dimension-request_id"><meta content="sea" name="octolytics-dimension-region_edge"><meta content="iad" name="octolytics-dimension-region_render"><meta content="20378868" name="octolytics-actor-id"><meta content="BulldogCountry" name="octolytics-actor-login"><meta content="790183362663ce7d8e50c32f9469705c45628d7ad2b1a015ad6564d95e7afd25" name="octolytics-actor-hash">
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="BulldogCountry">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MWY1YjA0ZTQ0N2Q4MjZkMDM3YjllYWFkNzJjOTE0YzZkNTQ3M2JmZmE2MjI5Y2Y0ZjIxOTJhZjE5ZWQxNjY4OXx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTkwLjIwMS4xMzMiLCJyZXF1ZXN0X2lkIjoiQjI3MjoyQTUxRjpDQzdDRjM6MTNBRDc1RTo1OUExQjkxMCIsInRpbWVzdGFtcCI6MTUwMzc3MDg5NiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER">
+
+  <meta name="html-safe-nonce" content="ff874cd55ed02f47e77b3428e47808c58fe390dc">
+
+  <meta http-equiv="x-pjax-version" content="2ab5ffca839147c258ee0a100d48cfa4">
+  
+
+      <link href="https://github.com/flar2/shamu/commits/ElementalX-4.00.atom" rel="alternate" title="Recent Commits to shamu:ElementalX-4.00" type="application/atom+xml">
+
+  <meta name="description" content="shamu - ElementalX for Nexus 6">
+  <meta name="go-import" content="github.com/flar2/shamu git https://github.com/flar2/shamu.git">
+
+  <meta content="2751621" name="octolytics-dimension-user_id"><meta content="flar2" name="octolytics-dimension-user_login"><meta content="27200130" name="octolytics-dimension-repository_id"><meta content="flar2/shamu" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="27200130" name="octolytics-dimension-repository_network_root_id"><meta content="flar2/shamu" name="octolytics-dimension-repository_network_root_nwo"><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown">
+
+
+    <link rel="canonical" href="https://github.com/flar2/shamu" data-pjax-transient="">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  </head>
+
+  <body class="logged-in env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/flar2/shamu#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex px-3 flex-justify-between container-lg">
+    <div class="d-flex flex-justify-between">
+      <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/flar2/shamu/search" class="js-site-search-form" data-scoped-search-url="/flar2/shamu/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="https://github.com/flar2/shamu" class="header-search-scope no-underline">This repository</a>
+      <input type="text" class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable" data-hotkey="s" name="q" value="" placeholder="Search" aria-label="Search this repository" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type">
+    </label>
+</form></div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a href="https://github.com/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a href="https://github.com/issues" aria-label="Issues you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a href="https://github.com/marketplace" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                    Marketplace
+</a>                </li>
+            <li>
+              <a href="https://github.com/explore" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown js-menu-container">
+    <span class="d-inline-block  px-2">
+      
+
+    </span>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <a class="HeaderNavlink tooltipped tooltipped-s js-menu-target d-flex px-2 flex-items-center" href="https://github.com/new" aria-label="Create new…" aria-expanded="false" aria-haspopup="true" data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"></path></svg>
+      <span class="dropdown-caret mt-1"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="https://github.com/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="flar2/shamu">This repository</span>
+  </div>
+    <a class="dropdown-item" href="https://github.com/flar2/shamu/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="dropdown js-menu-container">
+
+    <details class="dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name" aria-label="View profile and more" data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@BulldogCountry" class="avatar" src="./flar2_shamu_ ElementalX for Nexus 6_files/20378868" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">BulldogCountry</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://github.com/BulldogCountry" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="https://github.com/BulldogCountry?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your Gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="RYsctaKyspXVyz7WIMjb/6+q1ssaxdVS/AVf+rYz/w5nOTxTWV9HTNrRj+KsmixX5Wu50tL9bnzzCEEbtIAQWQ=="></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="wYjP9eyLoEraZ5x4+50A7Jai5hwqxo4SKE8LggTvTvPjOu8TF2ZVk9V9LUx3z/dE3GOJBeL+NTwnQhVjBlyhpA=="></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container="">
+      
+
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="Dlg5vwdPn3ZobuARGXrqE/E0gF8aV4vI1A3+zXibCG/450m+F7ORVpYKq/38xQFNzi7prSVjLneqQsk2LNlC2g=="></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="27200130">
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="https://github.com/flar2/shamu/subscription" class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Toggle repository notifications menu" data-ga-click="Repository, click Watch settings, action:files#disambiguate">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                Watch
+            </span>
+          </a>
+            <a class="social-count js-social-count" href="https://github.com/flar2/shamu/watchers" aria-label="14 users are watching this repository">
+              14
+            </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included">
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed">
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore">
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/flar2/shamu/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="FFzlLHygUK8P6qX0NF4YPtWBMuV7BWSu30R9eNF7KwkxwF1c4nQV1mypMT9P/FZp59aU2hBG/5bFwoywLjylzg=="></div>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar flar2/shamu" data-ga-click="Repository, click unstar button, action:files#disambiguate; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/flar2/shamu/stargazers" aria-label="21 users starred this repository">
+          21
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/flar2/shamu/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="aNJgHR+ZBimJTtDAY4hgjJZ8YaBSxd8G1RDQhPyjVCR/2bxj73P9+WKadklCjE5hKbYWiPp6sRyP26zHmTHRqg=="></div>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Star this repository" title="Star flar2/shamu" data-ga-click="Repository, click star button, action:files#disambiguate; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/flar2/shamu/stargazers" aria-label="21 users starred this repository">
+          21
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/flar2/shamu/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="TF42AYYTMKnQnT60pBwuKa2Zrl4Dqw/0pK95peG458l80AkzT/JhZ/QFRYqt6SchMaP6bIlayQ0uNrsal2gHjQ=="></div>
+            <button type="submit" class="btn btn-sm btn-with-count" data-ga-click="Repository, show fork modal, action:files#disambiguate; text:Fork" title="Fork your own copy of flar2/shamu to your account" aria-label="Fork your own copy of flar2/shamu to your account">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              Fork
+            </button>
+</form>
+    <a href="https://github.com/flar2/shamu/network" class="social-count" aria-label="16 users forked this repository">
+      16
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/flar2" class="url fn" rel="author">flar2</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/flar2/shamu" data-pjax="#js-repo-pjax-container">shamu</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/flar2/shamu" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /flar2/shamu" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="https://github.com/flar2/shamu/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /flar2/shamu/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/flar2/shamu/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /flar2/shamu/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="https://github.com/flar2/shamu/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /flar2/shamu/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">0</span>
+</a>
+    <a href="https://github.com/flar2/shamu/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /flar2/shamu/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+
+    <div class="reponav-dropdown js-menu-container">
+      <button type="button" class="btn-link reponav-item reponav-dropdown js-menu-target " data-no-toggle="" aria-expanded="false" aria-haspopup="true">
+        Insights
+        <svg aria-hidden="true" class="octicon octicon-triangle-down v-align-middle text-gray" height="11" version="1.1" viewBox="0 0 12 16" width="8"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"></path></svg>
+      </button>
+      <div class="dropdown-menu-content js-menu-content">
+        <div class="dropdown-menu dropdown-menu-sw">
+          <a class="dropdown-item" href="https://github.com/flar2/shamu/pulse" data-skip-pjax="">
+            <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"></path></svg>
+            Pulse
+          </a>
+          <a class="dropdown-item" href="https://github.com/flar2/shamu/graphs" data-skip-pjax="">
+            <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+            Graphs
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+  
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            ElementalX for Nexus 6
+          </span>
+          <span itemprop="url"><a href="http://forum.xda-developers.com/nexus-6/orig-development/kernel-elementalx-n6-0-01-alpha-t2954680" rel="nofollow">http://forum.xda-developers.com/nexus…</a></span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax="" href="https://github.com/flar2/shamu/commits/ElementalX-4.00">
+              <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              <span class="num text-emphasized">
+                409,134
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax="" href="https://github.com/flar2/shamu/branches">
+            <svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+            <span class="num text-emphasized">
+              6
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/flar2/shamu/releases">
+            <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/flar2/shamu/graphs/contributors">
+  <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"></path></svg>
+    <span class="num text-emphasized">
+      4,251
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/COPYING">
+              <svg aria-hidden="true" class="octicon octicon-law" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>
+                GPL-2.0
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="https://github.com/flar2/shamu/search?l=c" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#555555;"></span>
+                  <span class="lang">C</span>
+                  <span class="percent">95.3%</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/flar2/shamu/search?l=assembly" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#6E4C13;"></span>
+                  <span class="lang">Assembly</span>
+                  <span class="percent">2.0%</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/flar2/shamu/search?l=c%2B%2B" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#f34b7d;"></span>
+                  <span class="lang">C++</span>
+                  <span class="percent">2.0%</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/flar2/shamu/search?l=makefile" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#427819;"></span>
+                  <span class="lang">Makefile</span>
+                  <span class="percent">0.3%</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/flar2/shamu/search?l=objective-c" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#438eff;"></span>
+                  <span class="lang">Objective-C</span>
+                  <span class="percent">0.3%</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/flar2/shamu/search?l=perl" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#0298c3;"></span>
+                  <span class="lang">Perl</span>
+                  <span class="percent">0.1%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="C 95.3%" style="width:95.3%; background-color:#555555;" itemprop="keywords">C</span>
+      <span class="language-color" aria-label="Assembly 2.0%" style="width:2.0%; background-color:#6E4C13;" itemprop="keywords">Assembly</span>
+      <span class="language-color" aria-label="C++ 2.0%" style="width:2.0%; background-color:#f34b7d;" itemprop="keywords">C++</span>
+      <span class="language-color" aria-label="Makefile 0.3%" style="width:0.3%; background-color:#427819;" itemprop="keywords">Makefile</span>
+      <span class="language-color" aria-label="Objective-C 0.3%" style="width:0.3%; background-color:#438eff;" itemprop="keywords">Objective-C</span>
+      <span class="language-color" aria-label="Perl 0.1%" style="width:0.1%; background-color:#0298c3;" itemprop="keywords">Perl</span>
+    </div>
+
+    
+
+  <div class="file-navigation in-mid-page">
+
+    <div class="select-menu get-repo-select-menu js-menu-container float-right select-menu-modal-right">
+  <button class="btn btn-sm btn-primary select-menu-button js-menu-target" type="button" aria-label="Clone or download this repository" aria-expanded="false" aria-haspopup="true">
+    <span>Clone or download</span>
+  </button>
+
+  <div class="select-menu-modal-holder dropdown-menu-content js-menu-content">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container ">
+      <div class="clone-options https-clone-options">
+          <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="DtaR1Cdxy/4unFTU5hBs7TbYxceujq9stqHRc2DJ8fSf0cvPJ0zCMEsiEgxV8mWg+ZQH962DIjZM22BCXe/Xqw=="></div><button class="btn-link btn-change-protocol js-toggler-target float-right" type="submit">Use SSH</button></form>
+
+        <h4 class="mb-1">
+          Clone with HTTPS
+          <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+            <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+          </a>
+        </h4>
+        <p class="mb-2 get-repo-decription-text">
+          Use Git or checkout with SVN using the web URL.
+        </p>
+
+        <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="https://github.com/flar2/shamu.git" aria-label="Clone this repository at https://github.com/flar2/shamu.git" readonly="">
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></button>
+  </div>
+</div>
+
+      </div>
+
+        <div class="clone-options ssh-clone-options">
+          <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/users/set_protocol?protocol_selector=https&amp;protocol_type=clone" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="9Cfok6e2/951gI6onEQYjrCu5no8ASwGmf+TaKRGw9JlILKIp4v2EBA+yHAvphHDf+IkSj8MoVxjhSJZmWDljQ=="></div><button class="btn-link btn-change-protocol js-toggler-target float-right" type="submit">Use HTTPS</button></form>
+
+            <h4 class="mb-1">
+              Clone with SSH
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use an SSH key and passphrase from account.
+            </p>
+
+            <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="git@github.com:flar2/shamu.git" aria-label="Clone this repository at git@github.com:flar2/shamu.git" readonly="">
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></button>
+  </div>
+</div>
+
+        </div>
+      <div class="mt-2">
+        
+<a href="https://github.com/flar2/shamu/archive/ElementalX-4.00.zip" class="btn btn-outline get-repo-btn
+" rel="nofollow" data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="BtnGroup float-right">
+      
+  <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/flar2/shamu/new/ElementalX-4.00" class="BtnGroup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="mCbZlq8yNRRTIq0SS5+oP+CIeSR4OoFpKYjoXQ8Pvsk5/VfsMq72fhNFxAVnWWLNCm4jptRUWV1Qx0LbJt5GVQ=="></div>
+    <button class="btn btn-sm BtnGroup-item" type="submit" data-disable-with="Creating file…">
+      Create new file
+    </button>
+</form>
+
+      
+  <a href="https://github.com/flar2/shamu/upload/ElementalX-4.00" class="btn btn-sm BtnGroup-item">
+    Upload files
+  </a>
+
+
+    <a href="https://github.com/flar2/shamu/find/ElementalX-4.00" class="btn btn-sm empty-icon float-right BtnGroup-item" data-pjax="" data-hotkey="t" data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w" type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">ElementalX-4.00</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax="">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="https://github.com/flar2/shamu#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="https://github.com/flar2/shamu#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/flar2/shamu/tree/ElementalX-1.00" data-name="ElementalX-1.00" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                ElementalX-1.00
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/flar2/shamu/tree/ElementalX-2.00" data-name="ElementalX-2.00" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                ElementalX-2.00
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/flar2/shamu/tree/ElementalX-3.00" data-name="ElementalX-3.00" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                ElementalX-3.00
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected" href="https://github.com/flar2/shamu/tree/ElementalX-4.00" data-name="ElementalX-4.00" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                ElementalX-4.00
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/flar2/shamu/tree/lollipop-mr1" data-name="lollipop-mr1" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                lollipop-mr1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/flar2/shamu/tree/stock" data-name="stock" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                stock
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <a href="https://github.com/flar2/shamu/pull/new/ElementalX-4.00" class="btn btn-sm new-pull-request-btn" data-pjax="" data-ga-click="Repository, new pull request, location:repo overview">
+          New pull request
+        </a>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="https://github.com/flar2/shamu/commit/0dc56c4fbcc56c46665fa99469159181444cb4e7" data-pjax="">
+        0dc56c4
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-08-07T22:38:46Z" title="Aug 7, 2017, 6:38 PM EDT">19 days ago</relative-time></span>
+    </span>
+
+
+    <span class="commit-author-section">
+      <img alt="@flar2" class="avatar" height="20" src="./flar2_shamu_ ElementalX for Nexus 6_files/2751621" width="20">
+      <a href="https://github.com/flar2" class="user-mention" rel="author">flar2</a>
+    </span>
+
+        <a href="https://github.com/flar2/shamu/commit/0dc56c4fbcc56c46665fa99469159181444cb4e7" class="message" data-pjax="true" title="update defconfig">update defconfig</a>
+    
+
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a href="https://github.com/flar2/shamu/tree/0dc56c4fbcc56c46665fa99469159181444cb4e7" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax="">
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/Documentation" class="js-navigation-open" id="5b6cf869265c13af8566f192b4ab3d2a-8c1f0fce24f14a72207f492d0ee34875f3c9d6a3" title="Documentation">Documentation</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/490323b9df49bd168ff4814da54e562ab91ab511" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-n-preview-5&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-n-p…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-02T19:40:05Z" title="Aug 2, 2016, 3:40 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/android/configs" class="js-navigation-open" id="452dc5b73850e3bffa2dc06842c189f7-288e0d419922ef055b986fd9a19ae714b1056959" title="This path skips through empty directories"><span class="simplified-path">android/</span>configs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/0759cb0004306f5fd78f6623be540c07d24b65b4" class="message" data-pjax="true" title="ANDROID: restrict access to perf events
+
+Add:
+CONFIG_SECURITY_PERF_EVENTS_RESTRICT=y
+
+to android-base.cfg
+
+The kernel.perf_event_paranoid sysctl is set to 3 by default.
+No unprivileged use of the perf_event_open syscall will be
+permitted unless it is changed.
+
+Bug: 29054680
+Change-Id: Ie7512259150e146d8e382dc64d40e8faaa438917">ANDROID: restrict access to perf events</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-06-20T18:51:08Z" title="Jun 20, 2016, 2:51 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/arch" class="js-navigation-open" id="d6194c68fcc7e79bb57401be603cb1cc-1142decdfd96c410a857156d98c708e5471a5112" title="arch">arch</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/0dc56c4fbcc56c46665fa99469159181444cb4e7" class="message" data-pjax="true" title="update defconfig">update defconfig</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-07T22:38:46Z" title="Aug 7, 2017, 6:38 PM EDT">19 days ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item navigation-focus">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/block" class="js-navigation-open" id="14511f2f5564650d129ca7cabc333278-fa6411a86798fddfbeb5f5e34cfc220d72aff248" title="block">block</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/4e778ea8dfd2a6c033fd3ed9f0f6b649885a3140" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr0.5&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-08T17:44:57Z" title="Nov 8, 2016, 12:44 PM EST">10 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/crypto" class="js-navigation-open" id="5ae9b7f211e23aac3df5f2b8f3b8eada-cf6e51bd9e123e11b21129c9f73ae94498d5e874" title="crypto">crypto</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/d6a068bf164fdf564da15e1f1fb9636284a48f8d" class="message" data-pjax="true" title="crypto: add lz4 Cryptographic API
+
+Add support for lz4 and lz4hc compression algorithm using the lib/lz4/*
+codebase.
+
+[akpm@linux-foundation.org: fix warnings]
+Signed-off-by: Chanho Min &lt;chanho.min@lge.com&gt;
+Cc: &quot;Darrick J. Wong&quot; &lt;djwong@us.ibm.com&gt;
+Cc: Bob Pearson &lt;rpearson@systemfabricworks.com&gt;
+Cc: Richard Weinberger &lt;richard@nod.at&gt;
+Cc: Herbert Xu &lt;herbert@gondor.hengli.com.au&gt;
+Cc: Yann Collet &lt;yann.collet.73@gmail.com&gt;
+Cc: Kyungsik Lee &lt;kyungsik.lee@lge.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;
+Signed-off-by: flar2 &lt;asegaert@gmail.com&gt;">crypto: add lz4 Cryptographic API</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-17T00:34:33Z" title="Apr 16, 2016, 8:34 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/drivers" class="js-navigation-open" id="fe69fd0a878b10d190c924b2398bad9c-deae3deb72ff670606f979f8a8203032e00bb10b" title="drivers">drivers</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/d187b5e396ee5ae49c695077d894968f98fd7efb" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.6&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-07T22:37:56Z" title="Aug 7, 2017, 6:37 PM EDT">19 days ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/firmware" class="js-navigation-open" id="74b5b5e9570efc5c0553bb327cd41940-55406e5a13f16bbed1dd7ec7efea5222830eeda3" title="firmware">firmware</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/ff802e31b5e60a9a39f70479947a27cea5da701c" class="message" data-pjax="true" title="firmware,IB/qib: revert firmware file move
+
+Commit e2eed58b4fbf (&quot;IB/qib: change QLogic to Intel&quot;) moved a firmware
+file potentially breaking the ABI.
+
+This patch reverts that aspect of the fix as well as reverting the
+firmware name as used in qib.
+
+Reported-by: David Woodhouse &lt;dwmw2@infradead.org&gt;
+Signed-off-by: Mike Marciniszyn &lt;mike.marciniszyn@intel.com&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;">firmware,IB/qib: revert firmware file move</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2013-04-05T19:19:39Z" title="Apr 5, 2013, 3:19 PM EDT">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/fs" class="js-navigation-open" id="bc7b36fe4d2924e49800d9b3dc4a325c-d0fe07a764c01a951d3b88a1773110da58f5f6b2" title="fs">fs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/d187b5e396ee5ae49c695077d894968f98fd7efb" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.6&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-07T22:37:56Z" title="Aug 7, 2017, 6:37 PM EDT">19 days ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/include" class="js-navigation-open" id="d436eb0fd9de10b54a828ce6435f7e81-c1b30c1c79fbd65d87b13ac86c14b5be15a552c1" title="include">include</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/d187b5e396ee5ae49c695077d894968f98fd7efb" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.6&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-07T22:37:56Z" title="Aug 7, 2017, 6:37 PM EDT">19 days ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/init" class="js-navigation-open" id="e37f0136aa3ffaf149b351f6a4c948e9-09422924733836db5d628fbfb41a4b4c3c0fa8d6" title="init">init</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/f75127ab7de5f00cf379a1ea5a3718d5530babe1" class="message" data-pjax="true" title="lib: add support for LZ4-compressed kernel
+
+Add support for extracting LZ4-compressed kernel images, as well as
+LZ4-compressed ramdisk images in the kernel boot process.
+
+Signed-off-by: Kyungsik Lee &lt;kyungsik.lee@lge.com&gt;
+Cc: &quot;H. Peter Anvin&quot; &lt;hpa@zytor.com&gt;
+Cc: Ingo Molnar &lt;mingo@elte.hu&gt;
+Cc: Thomas Gleixner &lt;tglx@linutronix.de&gt;
+Cc: Russell King &lt;rmk@arm.linux.org.uk&gt;
+Cc: Borislav Petkov &lt;bp@alien8.de&gt;
+Cc: Florian Fainelli &lt;florian@openwrt.org&gt;
+Cc: Yann Collet &lt;yann.collet.73@gmail.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;
+Signed-off-by: flar2 &lt;asegaert@gmail.com&gt;">lib: add support for LZ4-compressed kernel</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-17T00:34:33Z" title="Apr 16, 2016, 8:34 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/ipc" class="js-navigation-open" id="5ac8bf6fc7652745573f0ef24a8ab513-e3752a7199c65c2c9d3802505ef3676a161ce2bc" title="ipc">ipc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/489ed1cb3c63477bc0e12e6ac20577009894c875" class="message" data-pjax="true" title="ipc/sem.c: fully initialize sem_array before making it visible
+
+(cherry pick from commit e8577d1f0329d4842e8302e289fb2c22156abef4)
+
+ipc_addid() makes a new ipc identifier visible to everyone.  New objects
+start as locked, so that the caller can complete the initialization
+after the call.  Within struct sem_array, at least sma-&gt;sem_base and
+sma-&gt;sem_nsems are accessed without any locks, therefore this approach
+doesn&#39;t work.
+
+Thus: Move the ipc_addid() to the end of the initialization.
+
+Signed-off-by: Manfred Spraul &lt;manfred@colorfullife.com&gt;
+Reported-by: Rik van Riel &lt;riel@redhat.com&gt;
+Acked-by: Rik van Riel &lt;riel@redhat.com&gt;
+Acked-by: Davidlohr Bueso &lt;dave@stgolabs.net&gt;
+Acked-by: Rafael Aquini &lt;aquini@redhat.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;
+Signed-off-by: Mark Salyzyn &lt;salyzyn@google.com&gt;
+Bug: 24551430
+Change-Id: I36a8cc2281dfd68e9a399695f1d7e7b038e105d0">ipc/sem.c: fully initialize sem_array before making it visible</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-14T21:58:22Z" title="Oct 14, 2015, 5:58 PM EDT">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/kernel" class="js-navigation-open" id="50484c19f1afdaf3841a0d821ed393d2-158860f7f15113e281ccef9a03ecdc75f4c43796" title="kernel">kernel</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/748d94e87345791232dfd041408a66115eff82b9" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.5&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-05T23:22:24Z" title="Jul 5, 2017, 7:22 PM EDT">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/lib" class="js-navigation-open" id="e8acc63b1e238f3255c900eed37254b8-4f505a38ec5562adb00a10af887d2cc25011c70c" title="lib">lib</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/93a5e8971d1e1644847628b8f384ee71daa61e9d" class="message" data-pjax="true" title="lib: lz4: cleanup unaligned access efficiency detection
+
+These identifiers are bogus. The interested architectures should define
+HAVE_EFFICIENT_UNALIGNED_ACCESS whenever relevant to do so. If this
+isn&#39;t true for some arch, it should be fixed in the arch definition.
+
+Signed-off-by: Rui Salvaterra &lt;rsalvaterra@gmail.com&gt;
+Reviewed-by: Sergey Senozhatsky &lt;sergey.senozhatsky@gmail.com&gt;
+Signed-off-by: Greg Kroah-Hartman &lt;gregkh@linuxfoundation.org&gt;
+Signed-off-by: Pranav Vashi &lt;neobuddy89@gmail.com&gt;">lib: lz4: cleanup unaligned access efficiency detection</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-06T23:32:05Z" title="Feb 6, 2017, 6:32 PM EST">7 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/mm" class="js-navigation-open" id="b3cd915d758008bd19d0f2428fbb354a-71c989dce83b1b683ed63417c8325796429d3eed" title="mm">mm</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/937148d544be1ec52cdc8d501a0db3ea4bb27af4" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.2&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-06T00:56:55Z" title="Jan 5, 2017, 7:56 PM EST">8 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/net" class="js-navigation-open" id="40fa73c9d0083043c6576dd2b40511e4-dac8db9f83cdf8a6d6ff861c205c40a45f09610f" title="net">net</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/748d94e87345791232dfd041408a66115eff82b9" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.5&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-05T23:22:24Z" title="Jul 5, 2017, 7:22 PM EDT">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/samples" class="js-navigation-open" id="6ef9161b900632671022358216c7dfe7-12b5c5ce8ca7383294238dbea80f2417112a539c" title="samples">samples</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/f37130533f68711fd6bae2c79950b8e72002bad6" class="message" data-pjax="true" title="HID: hidraw: warn if userspace headers are outdated
+
+Put a warning into sample hidraw code in samples/hidraw/hid-example.c
+in case the userspace headers are missing the necessary defines and
+need to be updated.
+
+Signed-off-by: Jiri Kosina &lt;jkosina@suse.cz&gt;">HID: hidraw: warn if userspace headers are outdated</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2013-03-27T16:29:18Z" title="Mar 27, 2013, 12:29 PM EDT">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/scripts" class="js-navigation-open" id="d6c5855a62cf32a4dadbc2831f0f295f-2b203420c0144f9e754f4a73b57525c646b11beb" title="scripts">scripts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/f75127ab7de5f00cf379a1ea5a3718d5530babe1" class="message" data-pjax="true" title="lib: add support for LZ4-compressed kernel
+
+Add support for extracting LZ4-compressed kernel images, as well as
+LZ4-compressed ramdisk images in the kernel boot process.
+
+Signed-off-by: Kyungsik Lee &lt;kyungsik.lee@lge.com&gt;
+Cc: &quot;H. Peter Anvin&quot; &lt;hpa@zytor.com&gt;
+Cc: Ingo Molnar &lt;mingo@elte.hu&gt;
+Cc: Thomas Gleixner &lt;tglx@linutronix.de&gt;
+Cc: Russell King &lt;rmk@arm.linux.org.uk&gt;
+Cc: Borislav Petkov &lt;bp@alien8.de&gt;
+Cc: Florian Fainelli &lt;florian@openwrt.org&gt;
+Cc: Yann Collet &lt;yann.collet.73@gmail.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;
+Signed-off-by: flar2 &lt;asegaert@gmail.com&gt;">lib: add support for LZ4-compressed kernel</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-17T00:34:33Z" title="Apr 16, 2016, 8:34 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/security" class="js-navigation-open" id="e91e6348157868de9dd8b25c81aebfb9-dfcb3a7f96d3c093057878d3a3fc9bab2ccb2eb7" title="security">security</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/7632986ec2673f7579b3333ced81ebcaf7214122" class="message" data-pjax="true" title="UPSTREAM: KEYS: Fix crash when attempt to garbage collect an uninstantiated keyring
+
+(cherry picked from commit f05819df10d7b09f6d1eb6f8534a8f68e5a4fe61)
+
+The following sequence of commands:
+
+    i=`keyctl add user a a @s`
+    keyctl request2 keyring foo bar @t
+    keyctl unlink $i @s
+
+tries to invoke an upcall to instantiate a keyring if one doesn&#39;t already
+exist by that name within the user&#39;s keyring set.  However, if the upcall
+fails, the code sets keyring-&gt;type_data.reject_error to -ENOKEY or some
+other error code.  When the key is garbage collected, the key destroy
+function is called unconditionally and keyring_destroy() uses list_empty()
+on keyring-&gt;type_data.link - which is in a union with reject_error.
+Subsequently, the kernel tries to unlink the keyring from the keyring names
+list - which oopses like this:
+
+	BUG: unable to handle kernel paging request at 00000000ffffff8a
+	IP: [&lt;ffffffff8126e051&gt;] keyring_destroy+0x3d/0x88
+	...
+	Workqueue: events key_garbage_collector
+	...
+	RIP: 0010:[&lt;ffffffff8126e051&gt;] keyring_destroy+0x3d/0x88
+	RSP: 0018:ffff88003e2f3d30  EFLAGS: 00010203
+	RAX: 00000000ffffff82 RBX: ffff88003bf1a900 RCX: 0000000000000000
+	RDX: 0000000000000000 RSI: 000000003bfc6901 RDI: ffffffff81a73a40
+	RBP: ffff88003e2f3d38 R08: 0000000000000152 R09: 0000000000000000
+	R10: ffff88003e2f3c18 R11: 000000000000865b R12: ffff88003bf1a900
+	R13: 0000000000000000 R14: ffff88003bf1a908 R15: ffff88003e2f4000
+	...
+	CR2: 00000000ffffff8a CR3: 000000003e3ec000 CR4: 00000000000006f0
+	...
+	Call Trace:
+	 [&lt;ffffffff8126c756&gt;] key_gc_unused_keys.constprop.1+0x5d/0x10f
+	 [&lt;ffffffff8126ca71&gt;] key_garbage_collector+0x1fa/0x351
+	 [&lt;ffffffff8105ec9b&gt;] process_one_work+0x28e/0x547
+	 [&lt;ffffffff8105fd17&gt;] worker_thread+0x26e/0x361
+	 [&lt;ffffffff8105faa9&gt;] ? rescuer_thread+0x2a8/0x2a8
+	 [&lt;ffffffff810648ad&gt;] kthread+0xf3/0xfb
+	 [&lt;ffffffff810647ba&gt;] ? kthread_create_on_node+0x1c2/0x1c2
+	 [&lt;ffffffff815f2ccf&gt;] ret_from_fork+0x3f/0x70
+	 [&lt;ffffffff810647ba&gt;] ? kthread_create_on_node+0x1c2/0x1c2
+
+Note the value in RAX.  This is a 32-bit representation of -ENOKEY.
+
+The solution is to only call -&gt;destroy() if the key was successfully
+instantiated.
+
+Reported-by: Dmitry Vyukov &lt;dvyukov@google.com&gt;
+Signed-off-by: David Howells &lt;dhowells@redhat.com&gt;
+Tested-by: Dmitry Vyukov &lt;dvyukov@google.com&gt;
+Change-Id: I29a78e84be219d2f760ef845c7d8481ef4d5517a
+Bug: 31253168">UPSTREAM: KEYS: Fix crash when attempt to garbage collect an uninstan…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-18T05:30:23Z" title="Oct 18, 2016, 1:30 AM EDT">10 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/sound" class="js-navigation-open" id="0b8263d341de01f741e4deadfb18f9eb-363ff576b1b526304c0f9d271b8660042f212b57" title="sound">sound</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/748d94e87345791232dfd041408a66115eff82b9" class="message" data-pjax="true" title="Merge remote-tracking branch &#39;googlesource/android-msm-shamu-3.10-nougat-mr1.5&#39; into ElementalX-4.00">Merge remote-tracking branch 'googlesource/android-msm-shamu-3.10-nou…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-05T23:22:24Z" title="Jul 5, 2017, 7:22 PM EDT">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/tools" class="js-navigation-open" id="4a931512ce65bdc9ca6808adf92d8783-8025a0757c62095decd0e20a81f853f51dc2aae1" title="tools">tools</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/746938f9d97d74f6c2833a0ede49506bdfcd89e4" class="message" data-pjax="true" title="BACKPORT: perf tools: Document the perf sysctls
+
+perf_event_paranoid was only documented in source code and a perf error
+message.  Copy the documentation from the error message to
+Documentation/sysctl/kernel.txt.
+
+Signed-off-by: Ben Hutchings &lt;ben@decadent.org.uk&gt;
+Cc: Peter Zijlstra &lt;peterz@infradead.org&gt;
+Cc: linux-doc@vger.kernel.org
+Link: http://lkml.kernel.org/r/20160119213515.GG2637@decadent.org.uk
+[ Remove reference to external Documentation file, provide info inline, as before ]
+Signed-off-by: Arnaldo Carvalho de Melo &lt;acme@redhat.com&gt;
+
+Bug: 29054680
+Change-Id: I13e73cfb2ad761c94762d0c8196df7725abdf5c5">BACKPORT: perf tools: Document the perf sysctls</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-06-20T18:46:54Z" title="Jun 20, 2016, 2:46 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/usr" class="js-navigation-open" id="0a744893951e0d1706ff74a7afccf561-392e32b116c3d1ec917c200ff219aa4c58308dfe" title="usr">usr</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/f75127ab7de5f00cf379a1ea5a3718d5530babe1" class="message" data-pjax="true" title="lib: add support for LZ4-compressed kernel
+
+Add support for extracting LZ4-compressed kernel images, as well as
+LZ4-compressed ramdisk images in the kernel boot process.
+
+Signed-off-by: Kyungsik Lee &lt;kyungsik.lee@lge.com&gt;
+Cc: &quot;H. Peter Anvin&quot; &lt;hpa@zytor.com&gt;
+Cc: Ingo Molnar &lt;mingo@elte.hu&gt;
+Cc: Thomas Gleixner &lt;tglx@linutronix.de&gt;
+Cc: Russell King &lt;rmk@arm.linux.org.uk&gt;
+Cc: Borislav Petkov &lt;bp@alien8.de&gt;
+Cc: Florian Fainelli &lt;florian@openwrt.org&gt;
+Cc: Yann Collet &lt;yann.collet.73@gmail.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;
+Signed-off-by: flar2 &lt;asegaert@gmail.com&gt;">lib: add support for LZ4-compressed kernel</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-17T00:34:33Z" title="Apr 16, 2016, 8:34 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/tree/ElementalX-4.00/virt/kvm" class="js-navigation-open" id="db297fe469b9d426564e07b81ef44834-a6c109d98d2cf7f91bb4d415be625853d1dcaff6" title="This path skips through empty directories"><span class="simplified-path">virt/</span>kvm</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/d9974589b5924fcdf901bafb2a5d2c4f98ff2bbf" class="message" data-pjax="true" title="Merge commit &#39;v3.10.40&#39; into LNX.LA.3.6
+
+* commit &#39;v3.10.40&#39;: (2661 commits)
+  Linux 3.10.40
+  ARC: !PREEMPT: Ensure Return to kernel mode is IRQ safe
+  drm: cirrus: add power management support
+  Input: synaptics - add min/max quirk for ThinkPad Edge E431
+  Input: synaptics - add min/max quirk for ThinkPad T431s, L440, L540, S1 Yoga and X1
+  lockd: ensure we tear down any live sockets when socket creation fails during lockd_up
+  dm thin: fix dangling bio in process_deferred_bios error path
+  dm transaction manager: fix corruption due to non-atomic transaction commit
+  Skip intel_crt_init for Dell XPS 8700
+  mtd: sm_ftl: heap corruption in sm_create_sysfs_attributes()
+  mtd: nuc900_nand: NULL dereference in nuc900_nand_enable()
+  mtd: atmel_nand: Disable subpage NAND write when using Atmel PMECC
+  tgafb: fix data copying
+  gpio: mxs: Allow for recursive enable_irq_wake() call
+  rtlwifi: rtl8188ee: initialize packet_beacon
+  rtlwifi: rtl8192se: Fix regression due to commit 1bf4bbb
+  rtlwifi: rtl8192se: Fix too long disable of IRQs
+  rtlwifi: rtl8192cu: Fix too long disable of IRQs
+  rtlwifi: rtl8188ee: Fix too long disable of IRQs
+  rtlwifi: rtl8723ae: Fix too long disable of IRQs
+  ...
+
+Signed-off-by: Ian Maund &lt;imaund@codeaurora.org&gt;">Merge commit 'v3.10.40' into LNX.LA.3.6</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-06-30T17:47:50Z" title="Jun 30, 2014, 1:47 PM EDT">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/.gitignore" class="js-navigation-open" id="a084b794bc0759e7a6b77810e01874f2-e67fe0a725f2a9277e16f62380b76c059678d347" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/a024ee269e91c67e7425a9974188ce5150b79c87" class="message" data-pjax="true" title=".gitignore
+
+Signed-off-by: flar2 &lt;asegaert@gmail.com&gt;">.gitignore</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-17T00:34:28Z" title="Apr 16, 2016, 8:34 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/.mailmap" class="js-navigation-open" id="c9d540715cff3469b65ddd01f614848b-658003aa94468687849d482a745fc61951d67e88" title=".mailmap">.mailmap</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/10d8935f46e5028847b179757ecbf9238b13d129" class="message" data-pjax="true" title="Viresh has moved
+
+viresh.kumar@st.com email-id doesn&#39;t exist anymore as I have left the
+company.  Replace ST&#39;s id with viresh.linux@gmail.com.
+
+It also updates .mailmap file to fix address for &#39;git shortlog&#39;
+
+Signed-off-by: Viresh Kumar &lt;viresh.linux@gmail.com&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;">Viresh has moved</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2012-06-20T21:39:36Z" title="Jun 20, 2012, 5:39 PM EDT">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/Android.mk" class="js-navigation-open" id="3ae6be565f1e33e90e0b11f768de1f6c-4d09aff18f535cc567eee9b86bc63f77b9683bc2" title="Android.mk">Android.mk</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/f58458f3f5caf65aa6f8d1338d0e1ae9a60c0879" class="message" data-pjax="true" title="Add capability to &#39;mm&#39; from kernel tree
+
+This change adds an Android.mk file which only gets picked up
+when a user runs &#39;mm&#39;. In other words, it does not get picked up
+in the official build. The file is intended to give developers
+an alternative to running &#39;make bootimage&#39; which can be slow.
+Make sure to pass the &#39;-j&#39; option into &#39;mm&#39; in order to speed
+up your build (&#39;mm&#39; calls &#39;make&#39; underneath)
+For example: &#39;mm -j8&#39;
+
+A user can also pass a command directly into the kernel
+build system by prefixing that command with &quot;kernel-&quot;. For
+example: &#39;mm kernel-mrproper&#39; passes the &#39;mrproper&#39; build
+target into the kernel make system.
+
+Signed-off-by: Kevin Wells &lt;kewells@motorola.com&gt;
+SLT-Approved: Slta Waiver &lt;sltawvr@motorola.com&gt;
+(cherry picked from commit c74b4d7a608bf025063609253c9da4a11b9af2a0)
+(cherry picked from commit a566ae788701784edad0ee3c613e08db23d117be)
+Reviewed-by: Jeffrey Carlyle &lt;jeff.carlyle@motorola.com&gt;">Add capability to 'mm' from kernel tree</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-08-05T18:11:30Z" title="Aug 5, 2014, 2:11 PM EDT">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/AndroidKernel.mk" class="js-navigation-open" id="8a650a69b68e4f5ff7c36b36c0792210-447d592808967aa77547964816b8d130f5476066" title="AndroidKernel.mk">AndroidKernel.mk</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/30f023ae2d9320fa2c945a708848deca75994f2d" class="message" data-pjax="true" title="build: allow control over user@hostname portion of kerne lversion string
+
+This is in order to meet requirment that &#39;(android@gpe)&#39; appear in the
+version string for GPE devices.
+
+Signed-off-by: Jeffrey Carlyle &lt;jeff.carlyle@motorola.com&gt;
+Reviewed-by: Igor Kovalenko &lt;igork@motorola.com&gt;
+(cherry picked from commit 3f94a46ad1884b8d3ea96c1a923b6156e67c57ec)">build: allow control over user@hostname portion of kerne lversion string</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-08-05T18:19:26Z" title="Aug 5, 2014, 2:19 PM EDT">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/COPYING" class="js-navigation-open" id="7116ef0705885343c9e1b2171a06be0e-ca442d313d86dc67e0a2e5d584b465bd382cbf5c" itemprop="license" title="COPYING">COPYING</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/b3358a116c25267446a45e4164cb2b8e98276da0" class="message" data-pjax="true" title="[PATCH] update FSF address in COPYING
+
+FSF has moved so update the address as per
+http://www.gnu.org/licenses/gpl.txt.
+
+Signed-off-by: Pekka Enberg &lt;penberg@cs.helsinki.fi&gt;
+Signed-off-by: Andrew Morton &lt;akpm@osdl.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@osdl.org&gt;">[PATCH] update FSF address in COPYING</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2005-09-10T17:06:29Z" title="Sep 10, 2005, 1:06 PM EDT">12 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/CREDITS" class="js-navigation-open" id="e5f53fee4717a20069da09aa7a0f614d-206d0fcf07a5a22170670f93c43481094916fe36" title="CREDITS">CREDITS</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/c547146262e59a359eff78636ac498494f8688e7" class="message" data-pjax="true" title="MAINTAINERS: i8k driver is orphan
+
+Massimo Dal Zotto stopped maintaining the i8k driver several years ago,
+so move his name from MAINTAINERS to CREDITS.
+
+Signed-off-by: Jean Delvare &lt;khali@linux-fr.org&gt;
+Cc: Massimo Dal Zotto &lt;dz@debian.org&gt;
+Signed-off-by: Andrew Morton &lt;akpm@linux-foundation.org&gt;
+Signed-off-by: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;">MAINTAINERS: i8k driver is orphan</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2013-04-30T01:28:14Z" title="Apr 29, 2013, 9:28 PM EDT">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/Kbuild" class="js-navigation-open" id="99cd79cd066f57d7f8925989ddeaa55b-b8b708ad6dc3815eb0d23bfea2c972d03b9477c0" title="Kbuild">Kbuild</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/44656fa03926e7363ab41c565619800a4b3b1322" class="message" data-pjax="true" title="kbuild: Fix missing system calls check on mips.
+
+Commit 5f7efb4 (Kbuild: append missing-syscalls to the default target
+list) broke MIPS build.
+
+Reported-tested-and-acked-by: Ralf Baechle &lt;ralf@linux-mips.org&gt;
+Signed-off-by: David Daney &lt;david.daney@cavium.com&gt;
+Signed-off-by: Michal Marek &lt;mmarek@suse.cz&gt;">kbuild: Fix missing system calls check on mips.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2011-11-09T13:37:44Z" title="Nov 9, 2011, 8:37 AM EST">6 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/Kconfig" class="js-navigation-open" id="a8d286f45e576c6843d8137bf3d043ea-c13f48d65898487105f0193667648382c90d0eda" title="Kconfig">Kconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/838a2e55e6a4e9e8a10451ed2ef0f7a08dabdb04" class="message" data-pjax="true" title="kbuild: migrate all arch to the kconfig mainmenu upgrade
+
+Signed-off-by: Arnaud Lacombe &lt;lacombar@gmail.com&gt;
+Reviewed-by: Sam Ravnborg &lt;sam@ravnborg.org&gt;
+Reviewed-by: Michal Marek &lt;mmarek@suse.cz&gt;">kbuild: migrate all arch to the kconfig mainmenu upgrade</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2010-09-20T02:54:11Z" title="Sep 19, 2010, 10:54 PM EDT">7 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/MAINTAINERS" class="js-navigation-open" id="bb5907b965b501e1856ccd79d2c4f642-a6ddd99fe965845c3cf8cb69666819084b15e42c" title="MAINTAINERS">MAINTAINERS</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/d9974589b5924fcdf901bafb2a5d2c4f98ff2bbf" class="message" data-pjax="true" title="Merge commit &#39;v3.10.40&#39; into LNX.LA.3.6
+
+* commit &#39;v3.10.40&#39;: (2661 commits)
+  Linux 3.10.40
+  ARC: !PREEMPT: Ensure Return to kernel mode is IRQ safe
+  drm: cirrus: add power management support
+  Input: synaptics - add min/max quirk for ThinkPad Edge E431
+  Input: synaptics - add min/max quirk for ThinkPad T431s, L440, L540, S1 Yoga and X1
+  lockd: ensure we tear down any live sockets when socket creation fails during lockd_up
+  dm thin: fix dangling bio in process_deferred_bios error path
+  dm transaction manager: fix corruption due to non-atomic transaction commit
+  Skip intel_crt_init for Dell XPS 8700
+  mtd: sm_ftl: heap corruption in sm_create_sysfs_attributes()
+  mtd: nuc900_nand: NULL dereference in nuc900_nand_enable()
+  mtd: atmel_nand: Disable subpage NAND write when using Atmel PMECC
+  tgafb: fix data copying
+  gpio: mxs: Allow for recursive enable_irq_wake() call
+  rtlwifi: rtl8188ee: initialize packet_beacon
+  rtlwifi: rtl8192se: Fix regression due to commit 1bf4bbb
+  rtlwifi: rtl8192se: Fix too long disable of IRQs
+  rtlwifi: rtl8192cu: Fix too long disable of IRQs
+  rtlwifi: rtl8188ee: Fix too long disable of IRQs
+  rtlwifi: rtl8723ae: Fix too long disable of IRQs
+  ...
+
+Signed-off-by: Ian Maund &lt;imaund@codeaurora.org&gt;">Merge commit 'v3.10.40' into LNX.LA.3.6</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-06-30T17:47:50Z" title="Jun 30, 2014, 1:47 PM EDT">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/Makefile" class="js-navigation-open" id="b67911656ef5d18c4ae36cb6741b7965-11828a3827f9dafa9a6091688af7524a91c9a15b" title="Makefile">Makefile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/467b161e952b9f6254087470031caf6d38f06d1c" class="message" data-pjax="true" title="Revert &quot;Makefile adjustments&quot;
+
+This reverts commit 4d099f819cc789cace0da8a7ba080061fa8c86fe.">Revert "Makefile adjustments"</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-17T00:34:40Z" title="Apr 16, 2016, 8:34 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/README" class="js-navigation-open" id="c47c7c7383225ab55ff591cb59c41e6b-a24ec89ba4420ad38e8848422ca5f69baa5ffe1c" title="README">README</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/3bd7bf1f0fe14f591c089ae61bbfa9bd356f178a" class="message" data-pjax="true" title="Merge branch &#39;master&#39; into for-next
+
+Sync up with Linus&#39; tree to be able to apply Cesar&#39;s patch
+against newer version of the code.
+
+Signed-off-by: Jiri Kosina &lt;jkosina@suse.cz&gt;">Merge branch 'master' into for-next</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2012-10-28T18:29:19Z" title="Oct 28, 2012, 2:29 PM EDT">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/REPORTING-BUGS" class="js-navigation-open" id="68f4de187927333391ebd4230488a4c1-0cb8cdfa63bcf0837582d5db2a443d511e5ddf48" title="REPORTING-BUGS">REPORTING-BUGS</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/b7ca36ae3bdd1d8e336ee76f06d7aa4b0af84959" class="message" data-pjax="true" title="Docs: Move ref to Frohwalt Egerer to end of REPORTING-BUGS
+
+The document is largely not the same as the original that was crafted
+from Frohwalt Egerer&#39;s document, but leave it in as a historical thank
+you footnote.
+
+Signed-off-by: Sarah Sharp &lt;sarah.a.sharp@linux.intel.com&gt;">Docs: Move ref to Frohwalt Egerer to end of REPORTING-BUGS</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2013-04-18T23:55:09Z" title="Apr 18, 2013, 7:55 PM EDT">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/build.config" class="js-navigation-open" id="64b6750433a21a8323c74ec3934363d7-d2679db929e0b46c87f794d88919d5b3977a03e9" title="build.config">build.config</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/abad5a0499119616a86311fe5dfc7c521001fae6" class="message" data-pjax="true" title="Update build config for nyc branch
+
+Change-Id: Idc5284815b5ad9e4cb83994a1b00fd597c09e9fc">Update build config for nyc branch</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-07-12T18:42:47Z" title="Jul 12, 2016, 2:42 PM EDT">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/build.config.net_test" class="js-navigation-open" id="48f0819718b703c371a9a7cbd6417279-b7d883f74b9328f1d35d603ebe6f1831d2dc0b80" title="build.config.net_test">build.config.net_test</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/45835aa75cf643fa31c78548b2bf347dcfe79ae6" class="message" data-pjax="true" title="Add a build file and a defconfig for net_test.
+
+Bug: 23016816
+Change-Id: I3d05a282982837dd0b020a9b4904df89063dfa59">Add a build file and a defconfig for net_test.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-08-13T14:48:38Z" title="Aug 13, 2015, 10:48 AM EDT">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./flar2_shamu_ ElementalX for Nexus 6_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/flar2/shamu/blob/ElementalX-4.00/defconfig.mk" class="js-navigation-open" id="844197178ebc3f570c6de16213aad0f9-75e87034601c5c3bd492ce6aa95bef62e4194c90" title="defconfig.mk">defconfig.mk</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/flar2/shamu/commit/bc2ed9b7cf3b3aeca702f77f8a4c49822d54b34e" class="message" data-pjax="true" title="build: strip -perf when looking for debug options
+
+Signed-off-by: Jeffrey Carlyle &lt;jeff.carlyle@motorola.com&gt;
+Reviewed-by: Christopher Fries &lt;cfries@motorola.com&gt;">build: strip -perf when looking for debug options</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-08-05T18:24:12Z" title="Aug 5, 2014, 2:24 PM EDT">3 years ago</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body ">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      README
+    </h3>
+
+      <div class="plain"><pre>        Linux kernel release 3.x &lt;<a href="http://kernel.org/">http://kernel.org/</a>&gt;
+
+These are the release notes for Linux version 3.  Read them carefully,
+as they tell you what this is all about, explain how to install the
+kernel, and what to do if something goes wrong. 
+
+WHAT IS LINUX?
+
+  Linux is a clone of the operating system Unix, written from scratch by
+  Linus Torvalds with assistance from a loosely-knit team of hackers across
+  the Net. It aims towards POSIX and Single UNIX Specification compliance.
+
+  It has all the features you would expect in a modern fully-fledged Unix,
+  including true multitasking, virtual memory, shared libraries, demand
+  loading, shared copy-on-write executables, proper memory management,
+  and multistack networking including IPv4 and IPv6.
+
+  It is distributed under the GNU General Public License - see the
+  accompanying COPYING file for more details. 
+
+ON WHAT HARDWARE DOES IT RUN?
+
+  Although originally developed first for 32-bit x86-based PCs (386 or higher),
+  today Linux also runs on (at least) the Compaq Alpha AXP, Sun SPARC and
+  UltraSPARC, Motorola 68000, PowerPC, PowerPC64, ARM, Hitachi SuperH, Cell,
+  IBM S/390, MIPS, HP PA-RISC, Intel IA-64, DEC VAX, AMD x86-64, AXIS CRIS,
+  Xtensa, Tilera TILE, AVR32 and Renesas M32R architectures.
+
+  Linux is easily portable to most general-purpose 32- or 64-bit architectures
+  as long as they have a paged memory management unit (PMMU) and a port of the
+  GNU C compiler (gcc) (part of The GNU Compiler Collection, GCC). Linux has
+  also been ported to a number of architectures without a PMMU, although
+  functionality is then obviously somewhat limited.
+  Linux has also been ported to itself. You can now run the kernel as a
+  userspace application - this is called UserMode Linux (UML).
+
+DOCUMENTATION:
+
+ - There is a lot of documentation available both in electronic form on
+   the Internet and in books, both Linux-specific and pertaining to
+   general UNIX questions.  I'd recommend looking into the documentation
+   subdirectories on any Linux FTP site for the LDP (Linux Documentation
+   Project) books.  This README is not meant to be documentation on the
+   system: there are much better sources available.
+
+ - There are various README files in the Documentation/ subdirectory:
+   these typically contain kernel-specific installation notes for some 
+   drivers for example. See Documentation/00-INDEX for a list of what
+   is contained in each file.  Please read the Changes file, as it
+   contains information about the problems, which may result by upgrading
+   your kernel.
+
+ - The Documentation/DocBook/ subdirectory contains several guides for
+   kernel developers and users.  These guides can be rendered in a
+   number of formats:  PostScript (.ps), PDF, HTML, &amp; man-pages, among others.
+   After installation, "make psdocs", "make pdfdocs", "make htmldocs",
+   or "make mandocs" will render the documentation in the requested format.
+
+INSTALLING the kernel source:
+
+ - If you install the full sources, put the kernel tarball in a
+   directory where you have permissions (eg. your home directory) and
+   unpack it:
+
+     gzip -cd linux-3.X.tar.gz | tar xvf -
+
+   or
+
+     bzip2 -dc linux-3.X.tar.bz2 | tar xvf -
+
+   Replace "X" with the version number of the latest kernel.
+
+   Do NOT use the /usr/src/linux area! This area has a (usually
+   incomplete) set of kernel headers that are used by the library header
+   files.  They should match the library, and not get messed up by
+   whatever the kernel-du-jour happens to be.
+
+ - You can also upgrade between 3.x releases by patching.  Patches are
+   distributed in the traditional gzip and the newer bzip2 format.  To
+   install by patching, get all the newer patch files, enter the
+   top level directory of the kernel source (linux-3.X) and execute:
+
+     gzip -cd ../patch-3.x.gz | patch -p1
+
+   or
+
+     bzip2 -dc ../patch-3.x.bz2 | patch -p1
+
+   Replace "x" for all versions bigger than the version "X" of your current
+   source tree, _in_order_, and you should be ok.  You may want to remove
+   the backup files (some-file-name~ or some-file-name.orig), and make sure
+   that there are no failed patches (some-file-name# or some-file-name.rej).
+   If there are, either you or I have made a mistake.
+
+   Unlike patches for the 3.x kernels, patches for the 3.x.y kernels
+   (also known as the -stable kernels) are not incremental but instead apply
+   directly to the base 3.x kernel.  For example, if your base kernel is 3.0
+   and you want to apply the 3.0.3 patch, you must not first apply the 3.0.1
+   and 3.0.2 patches. Similarly, if you are running kernel version 3.0.2 and
+   want to jump to 3.0.3, you must first reverse the 3.0.2 patch (that is,
+   patch -R) _before_ applying the 3.0.3 patch. You can read more on this in
+   Documentation/applying-patches.txt
+
+   Alternatively, the script patch-kernel can be used to automate this
+   process.  It determines the current kernel version and applies any
+   patches found.
+
+     linux/scripts/patch-kernel linux
+
+   The first argument in the command above is the location of the
+   kernel source.  Patches are applied from the current directory, but
+   an alternative directory can be specified as the second argument.
+
+ - Make sure you have no stale .o files and dependencies lying around:
+
+     cd linux
+     make mrproper
+
+   You should now have the sources correctly installed.
+
+SOFTWARE REQUIREMENTS
+
+   Compiling and running the 3.x kernels requires up-to-date
+   versions of various software packages.  Consult
+   Documentation/Changes for the minimum version numbers required
+   and how to get updates for these packages.  Beware that using
+   excessively old versions of these packages can cause indirect
+   errors that are very difficult to track down, so don't assume that
+   you can just update packages when obvious problems arise during
+   build or operation.
+
+BUILD directory for the kernel:
+
+   When compiling the kernel, all output files will per default be
+   stored together with the kernel source code.
+   Using the option "make O=output/dir" allow you to specify an alternate
+   place for the output files (including .config).
+   Example:
+
+     kernel source code: /usr/src/linux-3.X
+     build directory:    /home/name/build/kernel
+
+   To configure and build the kernel, use:
+
+     cd /usr/src/linux-3.X
+     make O=/home/name/build/kernel menuconfig
+     make O=/home/name/build/kernel
+     sudo make O=/home/name/build/kernel modules_install install
+
+   Please note: If the 'O=output/dir' option is used, then it must be
+   used for all invocations of make.
+
+CONFIGURING the kernel:
+
+   Do not skip this step even if you are only upgrading one minor
+   version.  New configuration options are added in each release, and
+   odd problems will turn up if the configuration files are not set up
+   as expected.  If you want to carry your existing configuration to a
+   new version with minimal work, use "make oldconfig", which will
+   only ask you for the answers to new questions.
+
+ - Alternative configuration commands are:
+
+     "make config"      Plain text interface.
+
+     "make menuconfig"  Text based color menus, radiolists &amp; dialogs.
+
+     "make nconfig"     Enhanced text based color menus.
+
+     "make xconfig"     X windows (Qt) based configuration tool.
+
+     "make gconfig"     X windows (Gtk) based configuration tool.
+
+     "make oldconfig"   Default all questions based on the contents of
+                        your existing ./.config file and asking about
+                        new config symbols.
+
+     "make silentoldconfig"
+                        Like above, but avoids cluttering the screen
+                        with questions already answered.
+                        Additionally updates the dependencies.
+
+     "make olddefconfig"
+                        Like above, but sets new symbols to their default
+                        values without prompting.
+
+     "make defconfig"   Create a ./.config file by using the default
+                        symbol values from either arch/$ARCH/defconfig
+                        or arch/$ARCH/configs/${PLATFORM}_defconfig,
+                        depending on the architecture.
+
+     "make ${PLATFORM}_defconfig"
+                        Create a ./.config file by using the default
+                        symbol values from
+                        arch/$ARCH/configs/${PLATFORM}_defconfig.
+                        Use "make help" to get a list of all available
+                        platforms of your architecture.
+
+     "make allyesconfig"
+                        Create a ./.config file by setting symbol
+                        values to 'y' as much as possible.
+
+     "make allmodconfig"
+                        Create a ./.config file by setting symbol
+                        values to 'm' as much as possible.
+
+     "make allnoconfig" Create a ./.config file by setting symbol
+                        values to 'n' as much as possible.
+
+     "make randconfig"  Create a ./.config file by setting symbol
+                        values to random values.
+
+     "make localmodconfig" Create a config based on current config and
+                           loaded modules (lsmod). Disables any module
+                           option that is not needed for the loaded modules.
+
+                           To create a localmodconfig for another machine,
+                           store the lsmod of that machine into a file
+                           and pass it in as a LSMOD parameter.
+
+                   target$ lsmod &gt; /tmp/mylsmod
+                   target$ scp /tmp/mylsmod host:/tmp
+
+                   host$ make LSMOD=/tmp/mylsmod localmodconfig
+
+                           The above also works when cross compiling.
+
+     "make localyesconfig" Similar to localmodconfig, except it will convert
+                           all module options to built in (=y) options.
+
+   You can find more information on using the Linux kernel config tools
+   in Documentation/kbuild/kconfig.txt.
+
+ - NOTES on "make config":
+
+    - Having unnecessary drivers will make the kernel bigger, and can
+      under some circumstances lead to problems: probing for a
+      nonexistent controller card may confuse your other controllers
+
+    - Compiling the kernel with "Processor type" set higher than 386
+      will result in a kernel that does NOT work on a 386.  The
+      kernel will detect this on bootup, and give up.
+
+    - A kernel with math-emulation compiled in will still use the
+      coprocessor if one is present: the math emulation will just
+      never get used in that case.  The kernel will be slightly larger,
+      but will work on different machines regardless of whether they
+      have a math coprocessor or not.
+
+    - The "kernel hacking" configuration details usually result in a
+      bigger or slower kernel (or both), and can even make the kernel
+      less stable by configuring some routines to actively try to
+      break bad code to find kernel problems (kmalloc()).  Thus you
+      should probably answer 'n' to the questions for "development",
+      "experimental", or "debugging" features.
+
+COMPILING the kernel:
+
+ - Make sure you have at least gcc 3.2 available.
+   For more information, refer to Documentation/Changes.
+
+   Please note that you can still run a.out user programs with this kernel.
+
+ - Do a "make" to create a compressed kernel image. It is also
+   possible to do "make install" if you have lilo installed to suit the
+   kernel makefiles, but you may want to check your particular lilo setup first.
+
+   To do the actual install, you have to be root, but none of the normal
+   build should require that. Don't take the name of root in vain.
+
+ - If you configured any of the parts of the kernel as `modules', you
+   will also have to do "make modules_install".
+
+ - Verbose kernel compile/build output:
+
+   Normally, the kernel build system runs in a fairly quiet mode (but not
+   totally silent).  However, sometimes you or other kernel developers need
+   to see compile, link, or other commands exactly as they are executed.
+   For this, use "verbose" build mode.  This is done by inserting
+   "V=1" in the "make" command.  E.g.:
+
+     make V=1 all
+
+   To have the build system also tell the reason for the rebuild of each
+   target, use "V=2".  The default is "V=0".
+
+ - Keep a backup kernel handy in case something goes wrong.  This is 
+   especially true for the development releases, since each new release
+   contains new code which has not been debugged.  Make sure you keep a
+   backup of the modules corresponding to that kernel, as well.  If you
+   are installing a new kernel with the same version number as your
+   working kernel, make a backup of your modules directory before you
+   do a "make modules_install".
+
+   Alternatively, before compiling, use the kernel config option
+   "LOCALVERSION" to append a unique suffix to the regular kernel version.
+   LOCALVERSION can be set in the "General Setup" menu.
+
+ - In order to boot your new kernel, you'll need to copy the kernel
+   image (e.g. .../linux/arch/i386/boot/bzImage after compilation)
+   to the place where your regular bootable kernel is found. 
+
+ - Booting a kernel directly from a floppy without the assistance of a
+   bootloader such as LILO, is no longer supported.
+
+   If you boot Linux from the hard drive, chances are you use LILO, which
+   uses the kernel image as specified in the file /etc/lilo.conf.  The
+   kernel image file is usually /vmlinuz, /boot/vmlinuz, /bzImage or
+   /boot/bzImage.  To use the new kernel, save a copy of the old image
+   and copy the new image over the old one.  Then, you MUST RERUN LILO
+   to update the loading map!! If you don't, you won't be able to boot
+   the new kernel image.
+
+   Reinstalling LILO is usually a matter of running /sbin/lilo. 
+   You may wish to edit /etc/lilo.conf to specify an entry for your
+   old kernel image (say, /vmlinux.old) in case the new one does not
+   work.  See the LILO docs for more information. 
+
+   After reinstalling LILO, you should be all set.  Shutdown the system,
+   reboot, and enjoy!
+
+   If you ever need to change the default root device, video mode,
+   ramdisk size, etc.  in the kernel image, use the 'rdev' program (or
+   alternatively the LILO boot options when appropriate).  No need to
+   recompile the kernel to change these parameters. 
+
+ - Reboot with the new kernel and enjoy. 
+
+IF SOMETHING GOES WRONG:
+
+ - If you have problems that seem to be due to kernel bugs, please check
+   the file MAINTAINERS to see if there is a particular person associated
+   with the part of the kernel that you are having trouble with. If there
+   isn't anyone listed there, then the second best thing is to mail
+   them to me (torvalds@linux-foundation.org), and possibly to any other
+   relevant mailing-list or to the newsgroup.
+
+ - In all bug-reports, *please* tell what kernel you are talking about,
+   how to duplicate the problem, and what your setup is (use your common
+   sense).  If the problem is new, tell me so, and if the problem is
+   old, please try to tell me when you first noticed it.
+
+ - If the bug results in a message like
+
+     unable to handle kernel paging request at address C0000010
+     Oops: 0002
+     EIP:   0010:XXXXXXXX
+     eax: xxxxxxxx   ebx: xxxxxxxx   ecx: xxxxxxxx   edx: xxxxxxxx
+     esi: xxxxxxxx   edi: xxxxxxxx   ebp: xxxxxxxx
+     ds: xxxx  es: xxxx  fs: xxxx  gs: xxxx
+     Pid: xx, process nr: xx
+     xx xx xx xx xx xx xx xx xx xx
+
+   or similar kernel debugging information on your screen or in your
+   system log, please duplicate it *exactly*.  The dump may look
+   incomprehensible to you, but it does contain information that may
+   help debugging the problem.  The text above the dump is also
+   important: it tells something about why the kernel dumped code (in
+   the above example, it's due to a bad kernel pointer). More information
+   on making sense of the dump is in Documentation/oops-tracing.txt
+
+ - If you compiled the kernel with CONFIG_KALLSYMS you can send the dump
+   as is, otherwise you will have to use the "ksymoops" program to make
+   sense of the dump (but compiling with CONFIG_KALLSYMS is usually preferred).
+   This utility can be downloaded from
+   <a href="ftp://ftp.%3Ccountry%3E.kernel.org/pub/linux/utils/kernel/ksymoops/">ftp://ftp.&lt;country&gt;.kernel.org/pub/linux/utils/kernel/ksymoops/</a> .
+   Alternatively, you can do the dump lookup by hand:
+
+ - In debugging dumps like the above, it helps enormously if you can
+   look up what the EIP value means.  The hex value as such doesn't help
+   me or anybody else very much: it will depend on your particular
+   kernel setup.  What you should do is take the hex value from the EIP
+   line (ignore the "0010:"), and look it up in the kernel namelist to
+   see which kernel function contains the offending address.
+
+   To find out the kernel function name, you'll need to find the system
+   binary associated with the kernel that exhibited the symptom.  This is
+   the file 'linux/vmlinux'.  To extract the namelist and match it against
+   the EIP from the kernel crash, do:
+
+     nm vmlinux | sort | less
+
+   This will give you a list of kernel addresses sorted in ascending
+   order, from which it is simple to find the function that contains the
+   offending address.  Note that the address given by the kernel
+   debugging messages will not necessarily match exactly with the
+   function addresses (in fact, that is very unlikely), so you can't
+   just 'grep' the list: the list will, however, give you the starting
+   point of each kernel function, so by looking for the function that
+   has a starting address lower than the one you are searching for but
+   is followed by a function with a higher address you will find the one
+   you want.  In fact, it may be a good idea to include a bit of
+   "context" in your problem report, giving a few lines around the
+   interesting one. 
+
+   If you for some reason cannot do the above (you have a pre-compiled
+   kernel image or similar), telling me as much about your setup as
+   possible will help.  Please read the REPORTING-BUGS document for details.
+
+ - Alternatively, you can use gdb on a running kernel. (read-only; i.e. you
+   cannot change values or set break points.) To do this, first compile the
+   kernel with -g; edit arch/i386/Makefile appropriately, then do a "make
+   clean". You'll also need to enable CONFIG_PROC_FS (via "make config").
+
+   After you've rebooted with the new kernel, do "gdb vmlinux /proc/kcore".
+   You can now use all the usual gdb commands. The command to look up the
+   point where your system crashed is "l *0xXXXXXXXX". (Replace the XXXes
+   with the EIP value.)
+
+   gdb'ing a non-running kernel currently fails because gdb (wrongly)
+   disregards the starting offset for which the kernel is compiled.
+
+</pre></div>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">© 2017 <span title="0.34035s from unicorn-1384344806-gbf5b">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage" class="footer-octicon" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-vSJ57uq7AsbduMXQp2YpIrVWRkBhmUW6qqpOyZv41II=" src="./flar2_shamu_ ElementalX for Nexus 6_files/frameworks-bd2279eeeabb02c6ddb8c5d0a7662922b5564640619945baaaaa4ec99bf8d482.js"></script>
+    
+    <script async="async" crossorigin="anonymous" integrity="sha256-6GuaVo4Ex9M8qcwqgZyGLzv6H5hgeCSg7F+R5lVKCbc=" src="./flar2_shamu_ ElementalX for Nexus 6_files/github-e86b9a568e04c7d33ca9cc2a819c862f3bfa1f98607824a0ec5f91e6554a09b7.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/flar2/shamu">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/flar2/shamu">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+
+  
+
+
+</body></html>
